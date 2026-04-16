@@ -1,6 +1,6 @@
 # Documentation Technique - Forma_2025
 
-## 📋 Table des matières
+##  Table des matières
 1. [Vue d'ensemble](#vue-densemble)
 2. [Architecture générale](#architecture-générale)
 3. [Structure du projet](#structure-du-projet)
@@ -408,7 +408,7 @@ function redirect(): void {
 
 ### Recommandations de sécurité
 
-⚠️ **À améliorer :**
+ **À améliorer :**
 1. **Hachage des mots de passe** : Utiliser `password_hash()` et `password_verify()`
 2. **HTTPS obligatoire** en production
 3. **Rate limiting** sur la page de connexion
