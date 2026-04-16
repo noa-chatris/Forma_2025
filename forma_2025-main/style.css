@@ -1,0 +1,7 @@
+/* Custom utility classes for m2l-primary color */
+.bg-m2l-primary { background-color: #0f766e !important; }
+.bg-m2l-primary:hover { background-color: #0f5f56 !important; }
+.border-m2l-primary { border-color: #0f766e !important; }
+.text-white { color: #fff !important; }
+.focus\:ring-m2l-primary:focus, .focus\:ring-m2l-primary:focus-visible { box-shadow: 0 0 0 4px rgba(15,118,110,0.25); }
+.focus\:border-m2l-primary:focus, .focus\:border-m2l-primary:focus-visible { border-color: #0f766e !important; }
