@@ -1,34 +1,38 @@
 /---|
-    |index.php (login/connexion)
+    |index.php (login / connexion)
+    |deconnexion.php
     |style.css
-    |.htacess
     |robots.txt
     |catalogue------|
+                    |index.php (liste des formations / catalogue)
                     |include--------|
-                                    |index.php (les renvoies sur le index de catalogue)
-                                    |élément des page
-                    |index.php (lister)
+                                    |index.php
                     |modification---|
-                                    |index.php(modifier, suprimer, ajouter)(différent point d'entrée)
+                                    |index.php
     |formation------|
+                    |index.php (page formation)
                     |include--------|
-                                    |index.php (les renvoies sur le index de formation)
-                                    |élément des page
-                    |index.php (consulter)
+                                    |index.php
                     |inscription----|
                                     |index.php (inscription à une formation)
                     |gestionaire----|
-                                    |index.php (redirige sur réglement)
-                                    |réglement------|
-                                                    |index.php (enregister les réglement)
-                                    |liste----------|
-                                                    |index.php (permet de lister les participant une semaine avant (doit aussi lister les formation))
+                                    |index.php (page gestionnaire)
                                     |historiser-----|
                                                     |index.php
+                                    |inscrire-------|
+                                                    |index.php
+                                    |liste----------|
+                                                    |index.php
+                                    |reglement------|
+                                                    |index.php
+                                    |utilisateurs---|
+                                                    |index.php
     |include--------|
-                    |index.php (renvoie les gense sur la page de connexion)
+                    |index.php
                     |protection.php
                     |bd.php
+                    |catch_get_error.php
+                    |disconect.php
+                    |header.php
     |src------------|
-                    |index.php (renvoie les gense sur la page de connexion)
-                    |toutes les images
+                    |index.php
