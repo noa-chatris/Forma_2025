@@ -1,0 +1,3 @@
+date limite ignorer
+impossible de valider le paiment
+gestionnaire -> se déconnecter n'est pas fonctionnel

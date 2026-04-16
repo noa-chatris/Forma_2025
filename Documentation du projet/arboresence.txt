@@ -1,0 +1,11 @@
+arboresence
+
+/(page de login)
+	|catalogue
+		|lister les formation
+		|les modifier, suprimer, ajouter
+	|inscription
+		|catalogue des formation
+		|l'inscription à une formation
+		|l'enregistrement d'un règlement
+		|historiser

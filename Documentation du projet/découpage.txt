@@ -1,0 +1,34 @@
+/---|
+    |index.php (login/connexion)
+    |style.css
+    |.htacess
+    |robots.txt
+    |catalogue------|
+                    |include--------|
+                                    |index.php (les renvoies sur le index de catalogue)
+                                    |élément des page
+                    |index.php (lister)
+                    |modification---|
+                                    |index.php(modifier, suprimer, ajouter)(différent point d'entrée)
+    |formation------|
+                    |include--------|
+                                    |index.php (les renvoies sur le index de formation)
+                                    |élément des page
+                    |index.php (consulter)
+                    |inscription----|
+                                    |index.php (inscription à une formation)
+                    |gestionaire----|
+                                    |index.php (redirige sur réglement)
+                                    |réglement------|
+                                                    |index.php (enregister les réglement)
+                                    |liste----------|
+                                                    |index.php (permet de lister les participant une semaine avant (doit aussi lister les formation))
+                                    |historiser-----|
+                                                    |index.php
+    |include--------|
+                    |index.php (renvoie les gense sur la page de connexion)
+                    |protection.php
+                    |bd.php
+    |src------------|
+                    |index.php (renvoie les gense sur la page de connexion)
+                    |toutes les images
