@@ -494,24 +494,6 @@ Déconnexion
 
 ---
 
-## Variables d'environnement
-
-**À ajouter (recommandé) :**
-
-```php
-// .env ou config.php
-define('DB_HOST', $_ENV['DB_HOST'] ?? 'localhost');
-define('DB_NAME', $_ENV['DB_NAME'] ?? 'FORMA');
-define('DB_USER', $_ENV['DB_USER'] ?? 'app');
-define('DB_PASS', $_ENV['DB_PASS'] ?? 'Azerty31');
-define('SITE_URL', $_ENV['SITE_URL'] ?? 'http://localhost');
-define('SESSION_TIMEOUT', $_ENV['SESSION_TIMEOUT'] ?? 1800); // 30 minutes
-```
-
----
-
-## Maintenance et évolution
-
 ### Points de maintenance courants
 
 1. **Mise à jour des formations** : Table `formation`
