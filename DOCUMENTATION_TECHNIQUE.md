@@ -519,19 +519,6 @@ define('SESSION_TIMEOUT', $_ENV['SESSION_TIMEOUT'] ?? 1800); // 30 minutes
 3. **Validation des inscriptions** : Table `inscription`
 4. **Maintenance des utilisateurs** : Table `utilisateur`
 
-### Amélirations suggérées
-
-- [ ] Convertir vers une architecture MVC complète (Symfony/Laravel)
-- [ ] Ajouter un système de cache
-- [ ] Implémenter les logs d'erreurs
-- [ ] Ajouter des tests unitaires
-- [ ] Améliorer la sécurité (CSRF, hachage pwd)
-- [ ] Pagination sur les listes longues
-- [ ] Internationalization (i18n)
-- [ ] API REST pour mobile
-
----
-
 ## Support et contact
 
 **Application :** CROSL FORMA  
